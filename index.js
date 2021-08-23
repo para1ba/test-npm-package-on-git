@@ -1,4 +1,4 @@
-var cowsay = require("cowsay");
+const cowsay = require("cowsay");
 
 function mimosa(message = "Instituto Biosistêmico") {
     console.log(cowsay.say({
@@ -9,5 +9,3 @@ function mimosa(message = "Instituto Biosistêmico") {
 }
 
 module.exports = mimosa
-
-mimosa()
